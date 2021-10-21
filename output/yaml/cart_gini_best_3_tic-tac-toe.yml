@@ -1,0 +1,18 @@
+confusion matrix:
+- - 44
+  - 46
+- - 22
+  - 176
+cpu time: 0.0
+database: tic-tac-toe
+metrics:
+  accuracy: 0.7638888888888888
+  f1: 0.763888888888889
+  precision: 0.7638888888888888
+  recall: 0.7638888888888888
+name: CART (criterion=gini, splitter=best, max depth=3)
+time of experiment: 21-10-2021 14:19:22
+tree:
+  height: 3
+  serialization: output/trees/cart_gini_best_3_tic-tac-toe.dump
+  size: 15

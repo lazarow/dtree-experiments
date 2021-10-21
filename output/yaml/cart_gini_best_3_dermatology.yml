@@ -1,0 +1,50 @@
+confusion matrix:
+- - 32
+  - 1
+  - 0
+  - 0
+  - 0
+  - 0
+- - 0
+  - 21
+  - 0
+  - 0
+  - 0
+  - 0
+- - 0
+  - 0
+  - 22
+  - 0
+  - 1
+  - 0
+- - 0
+  - 15
+  - 0
+  - 0
+  - 0
+  - 0
+- - 0
+  - 0
+  - 0
+  - 0
+  - 9
+  - 0
+- - 2
+  - 7
+  - 0
+  - 0
+  - 0
+  - 0
+cpu time: 0.015625
+database: dermatology
+metrics:
+  accuracy: 0.7636363636363637
+  f1: 0.7636363636363637
+  precision: 0.7636363636363637
+  recall: 0.7636363636363637
+name: CART (criterion=gini, splitter=best, max depth=3)
+time of experiment: 21-10-2021 14:19:22
+tree:
+  height: 3
+  serialization: output/trees/cart_gini_best_3_dermatology.dump
+  size: 9
