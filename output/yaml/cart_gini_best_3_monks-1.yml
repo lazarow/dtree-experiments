@@ -11,7 +11,7 @@ metrics:
   precision: 0.7461538461538462
   recall: 0.7461538461538462
 name: CART (criterion=gini, splitter=best, max depth=3)
-time of experiment: 21-10-2021 14:19:22
+time of experiment: 21-10-2021 14:34:39
 tree:
   height: 3
   serialization: output/trees/cart_gini_best_3_monks-1.dump

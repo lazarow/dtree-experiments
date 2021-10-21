@@ -1,10 +1,10 @@
 confusion matrix:
 - - 0
+  - 0
   - 1
   - 0
-  - 0
-- - 1
-  - 22
+- - 0
+  - 23
   - 2
   - 0
 - - 0
@@ -18,12 +18,12 @@ confusion matrix:
 cpu time: 0.0
 database: lymphography
 metrics:
-  accuracy: 0.8444444444444444
-  f1: 0.8444444444444444
-  precision: 0.8444444444444444
-  recall: 0.8444444444444444
+  accuracy: 0.8666666666666667
+  f1: 0.8666666666666667
+  precision: 0.8666666666666667
+  recall: 0.8666666666666667
 name: CART (criterion=gini, splitter=best, max depth=4)
-time of experiment: 21-10-2021 14:19:22
+time of experiment: 21-10-2021 14:34:39
 tree:
   height: 4
   serialization: output/trees/cart_gini_best_4_lymphography.dump

@@ -1,0 +1,63 @@
+confusion matrix:
+- - 9
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+- - 0
+  - 7
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+- - 0
+  - 0
+  - 0
+  - 0
+  - 1
+  - 0
+  - 0
+- - 0
+  - 0
+  - 0
+  - 7
+  - 0
+  - 0
+  - 0
+- - 0
+  - 0
+  - 1
+  - 0
+  - 0
+  - 0
+  - 0
+- - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 2
+  - 0
+- - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 4
+cpu time: 0.0
+database: zoo
+metrics:
+  accuracy: 0.9354838709677419
+  f1: 0.9354838709677419
+  precision: 0.9354838709677419
+  recall: 0.9354838709677419
+name: CART (criterion=gini, splitter=best, max depth=24)
+time of experiment: 21-10-2021 14:58:39
+tree:
+  height: 7
+  serialization: output/trees/cart_gini_best_24_zoo.dump
+  size: 19

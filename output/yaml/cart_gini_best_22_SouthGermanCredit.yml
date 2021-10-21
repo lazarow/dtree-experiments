@@ -1,0 +1,18 @@
+confusion matrix:
+- - 35
+  - 58
+- - 38
+  - 169
+cpu time: 0.0
+database: SouthGermanCredit
+metrics:
+  accuracy: 0.68
+  f1: 0.68
+  precision: 0.68
+  recall: 0.68
+name: CART (criterion=gini, splitter=best, max depth=22)
+time of experiment: 21-10-2021 14:58:38
+tree:
+  height: 14
+  serialization: output/trees/cart_gini_best_22_SouthGermanCredit.dump
+  size: 279

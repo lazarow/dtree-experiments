@@ -1,4 +1,4 @@
-# LOAD LIBRARIES BEGIN
+# LOADING LIBRARIES
 import pandas as pd
 import yaml
 import pickle
@@ -7,7 +7,6 @@ from sklearn.tree import DecisionTreeClassifier
 from sklearn import metrics
 from datetime import datetime
 from time import process_time
-# LOAD LIBRARIES END
 
 # DATASETS (DATABASES) LIST
 # If you add a new dataset/database, add its name here (without suffixes).
@@ -24,9 +23,14 @@ datasets = [
 ]
 
 # RANGE OF MAX DEPTH VALUES
-depths = [2, 3, 4, 5, 6]
+depths = range(2, 25)
 
 for dataset in datasets:
+
+    print("## Database:", dataset)
+    print("| Algorithm | Max Depth | Accuracy | Precision | Recall | F1 |")
+    print("| --- | --- | --- | --- | --- | --- |")
+
     for max_depth in depths:
 
         # INITIALIZATION OF CART ALGORITHM WITH A SPECIFIC MAX DEPTH
@@ -36,12 +40,14 @@ for dataset in datasets:
         serialization_filepath = "output/trees/" + filename + ".dump"
         yaml_filepath = "output/yaml/" + filename + ".yml"
 
-        # CHECKIN IF A DECISION TREE IS ALREADY GENERATED
+        # CHECKING IF A DECISION TREE IS ALREADY GENERATED
         if os.path.isfile(serialization_filepath) and os.path.isfile(yaml_filepath):
             # Loading a saved decision tree...
             infile = open(serialization_filepath, "rb")
             cart = pickle.load(infile)
             infile.close()
+            with open(yaml_filepath, "r") as f:
+                results = yaml.full_load(f)
         else:
             # Training a new decision tree...
             train_data = pd.read_csv("datasets/" + dataset + "_trte.data", header=None)
@@ -55,7 +61,7 @@ for dataset in datasets:
             outfile.close()
             # Testing
             predicted = cart.predict(test_data.iloc[:,:-1])
-            yaml_output = yaml.dump({
+            results = {
                 "name": "CART (criterion=" + cart.criterion + ", splitter=" + cart.splitter + ", max depth=" + str(cart.max_depth) + ")",
                 "database": dataset,
                 "confusion matrix": metrics.confusion_matrix(test_data.iloc[:,-1], predicted).tolist(),
@@ -72,6 +78,15 @@ for dataset in datasets:
                     "recall": float(metrics.recall_score(test_data.iloc[:,-1], predicted, average='micro')),
                     "f1": float(metrics.f1_score(test_data.iloc[:,-1], predicted, average='micro'))
                 }
-            })
+            }
+            yaml_output = yaml.dump(results)
             with open(yaml_filepath, "w") as f:
                 f.write(yaml_output)
+        
+        print("| CART", end="")
+        print(" | " + str(cart.max_depth) + " | ", end = '')
+        print(str(round(results["metrics"]["accuracy"], 4))," | ", end='')
+        print(str(round(results["metrics"]["precision"], 4))," | ", end='')
+        print(str(round(results["metrics"]["recall"], 4))," | ", end='')
+        print(str(round(results["metrics"]["f1"], 4))," |")
+

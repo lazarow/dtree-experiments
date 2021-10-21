@@ -1,0 +1,18 @@
+confusion matrix:
+- - 66
+  - 1
+- - 3
+  - 60
+cpu time: 0.0
+database: monks-1
+metrics:
+  accuracy: 0.9692307692307692
+  f1: 0.9692307692307692
+  precision: 0.9692307692307692
+  recall: 0.9692307692307692
+name: CART (criterion=gini, splitter=best, max depth=10)
+time of experiment: 21-10-2021 14:57:37
+tree:
+  height: 10
+  serialization: output/trees/cart_gini_best_10_monks-1.dump
+  size: 81

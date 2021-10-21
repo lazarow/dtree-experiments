@@ -1,0 +1,30 @@
+confusion matrix:
+- - 0
+  - 0
+  - 1
+  - 0
+- - 0
+  - 21
+  - 4
+  - 0
+- - 0
+  - 2
+  - 16
+  - 0
+- - 0
+  - 0
+  - 0
+  - 1
+cpu time: 0.0
+database: lymphography
+metrics:
+  accuracy: 0.8444444444444444
+  f1: 0.8444444444444444
+  precision: 0.8444444444444444
+  recall: 0.8444444444444444
+name: CART (criterion=gini, splitter=best, max depth=14)
+time of experiment: 21-10-2021 14:58:01
+tree:
+  height: 7
+  serialization: output/trees/cart_gini_best_14_lymphography.dump
+  size: 49
