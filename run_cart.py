@@ -23,7 +23,7 @@ datasets = [
 ]
 
 # RANGE OF MAX DEPTH VALUES
-depths = range(2, 25)
+depths = [3, 4, 5]
 
 for dataset in datasets:
 

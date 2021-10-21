@@ -1,17 +1,17 @@
 confusion matrix:
-- - 78
-  - 5
+- - 77
+  - 6
 - - 1
   - 47
 cpu time: 0.0
 database: house-votes-84
 metrics:
-  accuracy: 0.9541984732824428
-  f1: 0.9541984732824428
-  precision: 0.9541984732824428
-  recall: 0.9541984732824428
+  accuracy: 0.9465648854961832
+  f1: 0.9465648854961832
+  precision: 0.9465648854961832
+  recall: 0.9465648854961832
 name: CART (criterion=gini, splitter=best, max depth=3)
-time of experiment: 21-10-2021 14:34:39
+time of experiment: 21-10-2021 15:14:23
 tree:
   height: 3
   serialization: output/trees/cart_gini_best_3_house-votes-84.dump

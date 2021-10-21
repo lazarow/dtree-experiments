@@ -1,17 +1,17 @@
 confusion matrix:
-- - 117
-  - 10
+- - 116
+  - 11
 - - 1
   - 82
 cpu time: 0.0
 database: breast-cancer-wisconsin
 metrics:
-  accuracy: 0.9476190476190476
-  f1: 0.9476190476190476
-  precision: 0.9476190476190476
-  recall: 0.9476190476190476
+  accuracy: 0.9428571428571428
+  f1: 0.9428571428571428
+  precision: 0.9428571428571428
+  recall: 0.9428571428571428
 name: CART (criterion=gini, splitter=best, max depth=3)
-time of experiment: 21-10-2021 14:34:39
+time of experiment: 21-10-2021 15:14:23
 tree:
   height: 3
   serialization: output/trees/cart_gini_best_3_breast-cancer-wisconsin.dump
