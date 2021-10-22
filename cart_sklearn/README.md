@@ -1,4 +1,4 @@
-# CART (from sklearn) 
+# CART
 
 The test uses the standard version of CART from [sklearn](https://scikit-learn.org/stable/modules/generated/sklearn.tree.DecisionTreeClassifier.html), ie. it uses the _gini_ criterion, the _best_ strategy for splitter and an adaptive depth (see the above link for details).
 
