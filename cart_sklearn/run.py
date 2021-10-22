@@ -79,7 +79,6 @@ for dataset in datasets:
             f.write(yaml_output)
     
     print("| CART", end="")
-    print(" | " + str(cart.max_depth) + " | ", end = '')
     print(str(round(results["metrics"]["accuracy"], 4))," | ", end='')
     print(str(round(results["metrics"]["precision"], 4))," | ", end='')
     print(str(round(results["metrics"]["recall"], 4))," | ", end='')
