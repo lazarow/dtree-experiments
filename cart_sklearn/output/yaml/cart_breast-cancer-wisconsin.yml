@@ -1,18 +1,18 @@
 confusion matrix:
 - - 122
   - 5
-- - 17
-  - 66
-cpu time: 0.0026480589999999804
+- - 13
+  - 70
+cpu time: 0.002491384000000041
 database: breast-cancer-wisconsin
 metrics:
-  accuracy: 0.8952380952380953
-  f1: 0.8952380952380953
-  precision: 0.8952380952380953
-  recall: 0.8952380952380953
+  accuracy: 0.9142857142857143
+  f1: 0.9142857142857143
+  precision: 0.9142857142857143
+  recall: 0.9142857142857143
 name: CART
-time of experiment: 22-10-2021 08:38:17
+time of experiment: 22-10-2021 09:04:10
 tree:
-  height: 12
+  height: 13
   serialization: output/trees_dumps/cart_breast-cancer-wisconsin.dump
-  size: 71
+  size: 73

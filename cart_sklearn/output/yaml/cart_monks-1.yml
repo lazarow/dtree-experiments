@@ -1,18 +1,18 @@
 confusion matrix:
-- - 63
-  - 4
-- - 2
-  - 61
-cpu time: 0.0034252959999998556
+- - 59
+  - 8
+- - 1
+  - 62
+cpu time: 0.0020133869999998666
 database: monks-1
 metrics:
-  accuracy: 0.9538461538461539
-  f1: 0.9538461538461539
-  precision: 0.9538461538461539
-  recall: 0.9538461538461539
+  accuracy: 0.9307692307692308
+  f1: 0.9307692307692308
+  precision: 0.9307692307692308
+  recall: 0.9307692307692308
 name: CART
-time of experiment: 22-10-2021 08:38:17
+time of experiment: 22-10-2021 09:04:11
 tree:
-  height: 11
+  height: 10
   serialization: output/trees_dumps/cart_monks-1.dump
-  size: 91
+  size: 93

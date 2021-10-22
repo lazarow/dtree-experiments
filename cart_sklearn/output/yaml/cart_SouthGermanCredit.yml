@@ -1,17 +1,17 @@
 confusion matrix:
-- - 35
-  - 58
-- - 44
-  - 163
-cpu time: 0.003994937999999948
+- - 36
+  - 57
+- - 41
+  - 166
+cpu time: 0.0038362320000000505
 database: SouthGermanCredit
 metrics:
-  accuracy: 0.66
-  f1: 0.66
-  precision: 0.66
-  recall: 0.66
+  accuracy: 0.6733333333333333
+  f1: 0.6733333333333333
+  precision: 0.6733333333333333
+  recall: 0.6733333333333333
 name: CART
-time of experiment: 22-10-2021 08:38:17
+time of experiment: 22-10-2021 09:04:11
 tree:
   height: 14
   serialization: output/trees_dumps/cart_SouthGermanCredit.dump
