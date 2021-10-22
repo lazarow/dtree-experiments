@@ -9,3 +9,6 @@ pyvenv.cfg
 .venv
 pip-selfcheck.json
 target
+.classpath
+.project
+.settings
