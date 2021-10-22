@@ -1,0 +1,63 @@
+confusion matrix:
+- - 9
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+- - 0
+  - 7
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+- - 0
+  - 0
+  - 1
+  - 0
+  - 0
+  - 0
+  - 0
+- - 0
+  - 0
+  - 0
+  - 7
+  - 0
+  - 0
+  - 0
+- - 0
+  - 0
+  - 0
+  - 0
+  - 1
+  - 0
+  - 0
+- - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 2
+  - 0
+- - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 4
+cpu time: 0.0020162189999999303
+database: zoo
+metrics:
+  accuracy: 1.0
+  f1: 1.0
+  precision: 1.0
+  recall: 1.0
+name: CART
+time of experiment: 22-10-2021 08:38:18
+tree:
+  height: 7
+  serialization: output/trees_dumps/cart_zoo.dump
+  size: 19
