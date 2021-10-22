@@ -26,7 +26,7 @@ for dataset in datasets:
 
     print("## Database:", dataset)
     print("| Algorithm | Accuracy | Precision | Recall | F1 |")
-    print("| --- | --- | --- | --- | --- | --- |")
+    print("| --- | --- | --- | --- | --- |")
 
     # INITIALIZATION OF CART ALGORITHM WITH THE DEFAULT SETTINGS
     cart = DecisionTreeClassifier()
@@ -79,7 +79,7 @@ for dataset in datasets:
             f.write(yaml_output)
     
     print("| CART | ", end="")
-    print(str(round(results["metrics"]["accuracy"], 4))," | ", end='')
-    print(str(round(results["metrics"]["precision"], 4))," | ", end='')
-    print(str(round(results["metrics"]["recall"], 4))," | ", end='')
-    print(str(round(results["metrics"]["f1"], 4))," |")
+    print(str(round(results["metrics"]["accuracy"], 4)),"| ", end='')
+    print(str(round(results["metrics"]["precision"], 4)),"| ", end='')
+    print(str(round(results["metrics"]["recall"], 4)),"| ", end='')
+    print(str(round(results["metrics"]["f1"], 4)),"|")
