@@ -78,7 +78,7 @@ for dataset in datasets:
         with open(yaml_filepath, "w") as f:
             f.write(yaml_output)
     
-    print("| CART", end="")
+    print("| CART | ", end="")
     print(str(round(results["metrics"]["accuracy"], 4))," | ", end='')
     print(str(round(results["metrics"]["precision"], 4))," | ", end='')
     print(str(round(results["metrics"]["recall"], 4))," | ", end='')
