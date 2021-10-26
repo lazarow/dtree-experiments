@@ -1,0 +1,13 @@
+confusion matrix:
+- - 79
+  - 4
+- - 3
+  - 45
+cpu time: 0.0021977859999999794
+database: house-votes-84
+method: CART
+time of experiment: 26-10-2021 11:42:48
+tree:
+  height: 6
+  serialization: ../out/cart/cart_house-votes-84_tree.model
+  size: 41

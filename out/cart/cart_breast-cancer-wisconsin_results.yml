@@ -1,0 +1,13 @@
+confusion matrix:
+- - 121
+  - 6
+- - 14
+  - 69
+cpu time: 0.0026571040000000767
+database: breast-cancer-wisconsin
+method: CART
+time of experiment: 26-10-2021 11:42:48
+tree:
+  height: 13
+  serialization: ../out/cart/cart_breast-cancer-wisconsin_tree.model
+  size: 75

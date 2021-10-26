@@ -1,0 +1,25 @@
+confusion matrix:
+- - 0
+  - 1
+  - 0
+  - 0
+- - 0
+  - 21
+  - 4
+  - 0
+- - 0
+  - 4
+  - 14
+  - 0
+- - 0
+  - 0
+  - 0
+  - 1
+cpu time: 0.002114903000000057
+database: lymphography
+method: CART
+time of experiment: 26-10-2021 11:42:48
+tree:
+  height: 7
+  serialization: ../out/cart/cart_lymphography_tree.model
+  size: 49
