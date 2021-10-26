@@ -1,12 +1,18 @@
+
+import numpy as np
+import yaml
+import pickle
+import pandas as pd
 from random import choice, choices, randint, randrange, random, uniform
 from typing import Tuple, List
 from statistics import mode
-
-import numpy as np
 from sklearn.base import BaseEstimator, ClassifierMixin
 from sklearn.utils.validation import check_X_y, check_array, check_is_fitted
 from sklearn.utils.multiclass import unique_labels
 from sklearn.metrics import euclidean_distances
+from sklearn import metrics
+from datetime import datetime
+from time import process_time
 
 maxdepth = 100 # Max tree depth in decision tree with GA
 EPSILON = 0.001 # convergence tolerance
@@ -211,7 +217,7 @@ class EDT(BaseEstimator, ClassifierMixin):
             trees)
         print(f'All correct: {result}')
 
-# selection function
+    # selection function
     def select(self, P: List[Tree]) -> List[Tree]:
         R = []
 
@@ -221,7 +227,7 @@ class EDT(BaseEstimator, ClassifierMixin):
             R.append(rank[0].copy())
         return R
 
-#crossover function
+    #crossover function
     def crossover(self, R: List[Tree], x: np.ndarray, y: np.ndarray) -> List[Tree]:
         R = [tree.copy() for tree in R]
         pairs = [(R[2 * i], R[2 * i + 1]) for i in range(int(len(R) / 2))]
@@ -274,7 +280,7 @@ class EDT(BaseEstimator, ClassifierMixin):
         if a_node.parent is None and b_node.parent is None:
             a_tree.root, b_tree.root = b_node, a_node
 
-#mutation function
+    #mutation function
     def mutation(self, C: List[Tree], x: np.ndarray, y: np.ndarray,
                  attributes: int, ranges: List[Tuple[float, float]],
                  labels: list) -> List[Tree]:
@@ -334,5 +340,20 @@ class EDT(BaseEstimator, ClassifierMixin):
         height_factor = heightfactor * root.height() / self.target_height
         return error_factor + height_factor
 
+# DATASETS (DATABASES) LIST
+datasetsFile = open('../datasets.txt', 'r')
+datasets = datasetsFile.read().splitlines()
 
-print('Done.')
+for dataset in datasets:
+
+    # INITIALIZATION OF CART ALGORITHM WITH THE DEFAULT SETTINGS
+    evoDt = EDT()
+
+    # Training a new decision tree...
+    train_data = np.loadtxt("../datasets/" + dataset + "_trte.data", delimiter=',')
+    test_data = np.loadtxt("../datasets/" + dataset + "_clean.data", delimiter=',')
+    timer_start = process_time() 
+    evoDt.fit(train_data[:,:-1], train_data[:,-1])
+    timer_stop = process_time()
+    
+

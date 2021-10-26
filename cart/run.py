@@ -2,7 +2,6 @@
 import pandas as pd
 import yaml
 import pickle
-import os.path
 from sklearn.tree import DecisionTreeClassifier
 from sklearn import metrics
 from datetime import datetime
