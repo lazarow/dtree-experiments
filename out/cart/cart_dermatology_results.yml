@@ -6,9 +6,9 @@ confusion matrix:
   - 0
   - 0
 - - 0
-  - 17
+  - 18
   - 0
-  - 3
+  - 2
   - 0
   - 1
 - - 0
@@ -35,10 +35,10 @@ confusion matrix:
   - 0
   - 0
   - 7
-cpu time: 0.002573769000000059
+cpu time: 0.002511315000000014
 database: dermatology
 method: CART
-time of experiment: 26-10-2021 11:42:48
+time of experiment: 26-10-2021 13:06:34
 tree:
   height: 10
   serialization: ../out/cart/cart_dermatology_tree.model

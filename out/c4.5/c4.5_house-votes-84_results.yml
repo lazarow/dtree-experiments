@@ -1,0 +1,13 @@
+method: C4.5
+database: house-votes-84
+confusion matrix:
+- - 77.0
+  - 6.0
+- - 1.0
+  - 47.0
+tree:
+  size: 7
+  height: 3
+  serialization: c4.5_house-votes-84_tree.model
+time of experiment: 26-10-2021 16:56:50 CEST
+cpu time: 0.00449616

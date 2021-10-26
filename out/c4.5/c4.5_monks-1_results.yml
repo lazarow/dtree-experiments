@@ -1,0 +1,13 @@
+method: C4.5
+database: monks-1
+confusion matrix:
+- - 67.0
+  - 0.0
+- - 21.0
+  - 42.0
+tree:
+  size: 32
+  height: 5
+  serialization: c4.5_monks-1_tree.model
+time of experiment: 26-10-2021 16:56:50 CEST
+cpu time: 0.005172966

@@ -15,9 +15,9 @@ confusion matrix:
   - 0
 - - 0
   - 0
+  - 0
+  - 0
   - 1
-  - 0
-  - 0
   - 0
   - 0
 - - 0
@@ -48,10 +48,10 @@ confusion matrix:
   - 0
   - 0
   - 4
-cpu time: 0.001966012000000017
+cpu time: 0.0019419590000000486
 database: zoo
 method: CART
-time of experiment: 26-10-2021 11:42:48
+time of experiment: 26-10-2021 13:06:34
 tree:
   height: 7
   serialization: ../out/cart/cart_zoo_tree.model

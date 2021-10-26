@@ -1,0 +1,13 @@
+method: C4.5
+database: breast-cancer-wisconsin
+confusion matrix:
+- - 122.0
+  - 5.0
+- - 9.0
+  - 74.0
+tree:
+  size: 22
+  height: 3
+  serialization: c4.5_breast-cancer-wisconsin_tree.model
+time of experiment: 26-10-2021 16:56:50 CEST
+cpu time: 0.026057229

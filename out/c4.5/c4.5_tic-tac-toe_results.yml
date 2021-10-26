@@ -1,0 +1,13 @@
+method: C4.5
+database: tic-tac-toe
+confusion matrix:
+- - 68.0
+  - 22.0
+- - 25.0
+  - 173.0
+tree:
+  size: 124
+  height: 7
+  serialization: c4.5_tic-tac-toe_tree.model
+time of experiment: 26-10-2021 16:56:50 CEST
+cpu time: 0.007647145

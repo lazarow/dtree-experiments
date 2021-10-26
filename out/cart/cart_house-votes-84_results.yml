@@ -1,12 +1,12 @@
 confusion matrix:
-- - 79
-  - 4
+- - 77
+  - 6
 - - 3
   - 45
-cpu time: 0.0021977859999999794
+cpu time: 0.0021703280000000547
 database: house-votes-84
 method: CART
-time of experiment: 26-10-2021 11:42:48
+time of experiment: 26-10-2021 13:06:34
 tree:
   height: 6
   serialization: ../out/cart/cart_house-votes-84_tree.model
