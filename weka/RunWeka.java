@@ -3,6 +3,9 @@ package dtree.team;
 import weka.core.converters.CSVLoader;
 import weka.core.Instances;
 import java.io.File;
+
+import org.ho.yaml.Yaml;
+
 import weka.classifiers.trees.J48;
 import weka.filters.Filter;
 import weka.filters.unsupervised.attribute.NumericToNominal;
@@ -32,24 +35,35 @@ public class RunWeka
         Instances testData = loader.getDataSet();
         testData.setClassIndex(testData.numAttributes() - 1);
 
+        // Formatting data
         NumericToNominal filter = new NumericToNominal();
         filter.setInputFormat(trainData);
         trainData = Filter.useFilter(trainData, filter);
         testData = Filter.useFilter(testData, filter);
 
+        // Training
         J48 model = new J48(); 
         model.buildClassifier(trainData);
 
-        SerializationHelper.write("./j48.model", model);
-
-        double treeSize = model.getMeasure("measureTreeSize");
-        
+        // Evaluating
         Evaluation evaluation = new Evaluation(trainData);
         evaluation.evaluateModel(model, testData);
 
-        System.out.println(evaluation.toSummaryString("\nResults\n\n", false));
+        // Saving results
+        SerializationHelper.write("./j48.model", model);
+        double treeSize = model.getMeasure("measureTreeSize");
 
-        System.out.println(evaluation.toMatrixString());
+
+        Results results = new Results();
+        results.name = "C4.5";
+        Yaml.dump(results, new File("./object.yml"));
 
     }
+}
+
+class Results
+{
+    public String name;
+
+    public Results() {}
 }
