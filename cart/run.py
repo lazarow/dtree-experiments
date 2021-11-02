@@ -39,7 +39,7 @@ for dataset in datasets:
         "tree": {
             "size": cart.tree_.node_count,
             "height": cart.get_depth(),
-            "serialization": serialization_filepath
+            "serialization": filename + "_tree.model"
         },
         "time of experiment": datetime.utcnow().strftime("%d-%m-%Y %H:%M:%S"),
         "cpu time": timer_stop - timer_start
