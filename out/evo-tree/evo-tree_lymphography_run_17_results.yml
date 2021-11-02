@@ -1,0 +1,25 @@
+confusion matrix:
+- - 0
+  - 0
+  - 1
+  - 0
+- - 0
+  - 22
+  - 3
+  - 0
+- - 0
+  - 2
+  - 16
+  - 0
+- - 0
+  - 1
+  - 0
+  - 0
+cpu time: 4.390480433999983
+database: lymphography
+method: EVO-Tree
+time of experiment: 02-11-2021 13:49:43
+tree:
+  height: 8
+  serialization: evo-tree_lymphography_run_17_tree.model
+  size: 9

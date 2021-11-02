@@ -1,0 +1,13 @@
+confusion matrix:
+- - 19
+  - 74
+- - 14
+  - 193
+cpu time: 5.790374796000151
+database: SouthGermanCredit
+method: EVO-Tree
+time of experiment: 02-11-2021 13:54:04
+tree:
+  height: 2
+  serialization: evo-tree_SouthGermanCredit_run_6_tree.model
+  size: 3

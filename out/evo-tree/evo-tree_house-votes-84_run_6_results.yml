@@ -1,0 +1,13 @@
+confusion matrix:
+- - 75
+  - 8
+- - 2
+  - 46
+cpu time: 4.340000374000056
+database: house-votes-84
+method: EVO-Tree
+time of experiment: 02-11-2021 13:47:09
+tree:
+  height: 3
+  serialization: evo-tree_house-votes-84_run_6_tree.model
+  size: 5

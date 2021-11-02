@@ -1,0 +1,58 @@
+confusion matrix:
+- - 9
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+- - 0
+  - 7
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+- - 0
+  - 0
+  - 1
+  - 0
+  - 0
+  - 0
+  - 0
+- - 0
+  - 0
+  - 0
+  - 6
+  - 0
+  - 0
+  - 1
+- - 0
+  - 0
+  - 0
+  - 0
+  - 1
+  - 0
+  - 0
+- - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 2
+  - 0
+- - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 1
+  - 3
+cpu time: 6.972091821000049
+database: zoo
+method: EVO-Tree
+time of experiment: 02-11-2021 14:16:07
+tree:
+  height: 8
+  serialization: evo-tree_zoo_run_29_tree.model
+  size: 26

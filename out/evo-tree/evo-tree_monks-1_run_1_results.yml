@@ -1,0 +1,13 @@
+confusion matrix:
+- - 59
+  - 8
+- - 22
+  - 41
+cpu time: 10.254819146000045
+database: monks-1
+method: EVO-Tree
+time of experiment: 02-11-2021 13:50:43
+tree:
+  height: 6
+  serialization: evo-tree_monks-1_run_1_tree.model
+  size: 9
