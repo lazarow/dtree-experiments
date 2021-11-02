@@ -38,6 +38,7 @@ pip install virtualenv
 # run
 cd cart
 virtualenv .
+rm .gitignore           # required as virtualenv add it automatically
 source bin/activate     # for linux
 Scripts\activate.bat    # for windows
 pip install -r requirements.txt
@@ -59,6 +60,7 @@ pip install virtualenv
 # run
 cd evo-tree
 virtualenv .
+rm .gitignore           # required as virtualenv add it automatically
 source bin/activate     # for linux
 Scripts\activate.bat    # for windows
 pip install -r requirements.txt
