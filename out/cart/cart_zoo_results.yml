@@ -48,11 +48,11 @@ confusion matrix:
   - 0
   - 0
   - 4
-cpu time: 0.0019419590000000486
+cpu time: 0.0009516130000000178
 database: zoo
 method: CART
-time of experiment: 26-10-2021 13:06:34
+time of experiment: 02-11-2021 14:52:16
 tree:
   height: 7
-  serialization: ../out/cart/cart_zoo_tree.model
+  serialization: cart_zoo_tree.model
   size: 19

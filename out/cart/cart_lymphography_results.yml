@@ -1,7 +1,7 @@
 confusion matrix:
 - - 0
-  - 0
   - 1
+  - 0
   - 0
 - - 1
   - 20
@@ -15,11 +15,11 @@ confusion matrix:
   - 0
   - 0
   - 1
-cpu time: 0.002082659999999903
+cpu time: 0.0010391700000000892
 database: lymphography
 method: CART
-time of experiment: 26-10-2021 13:06:34
+time of experiment: 02-11-2021 14:52:16
 tree:
   height: 7
-  serialization: ../out/cart/cart_lymphography_tree.model
+  serialization: cart_lymphography_tree.model
   size: 49
