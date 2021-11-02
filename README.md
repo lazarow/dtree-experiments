@@ -43,3 +43,24 @@ Scripts\activate.bat    # for windows
 pip install -r requirements.txt
 python run.py
 ```
+
+## EVO-Tree
+
+In order to run experiments with the EVO-Tree algorithm you have to install `python`.
+
+```
+# verify required software
+python --version
+pip --version
+
+# optional installation of virtualenv
+pip install virtualenv
+
+# run
+cd evo-tree
+virtualenv .
+source bin/activate     # for linux
+Scripts\activate.bat    # for windows
+pip install -r requirements.txt
+python run.py
+```
