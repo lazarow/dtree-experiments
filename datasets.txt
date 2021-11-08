@@ -7,3 +7,6 @@ SouthGermanCredit
 soybean-large
 tic-tac-toe
 zoo
+balance-scale
+SomervilleHappinessSurvey2015
+car
