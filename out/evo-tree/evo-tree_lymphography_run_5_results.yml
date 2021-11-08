@@ -15,11 +15,11 @@ confusion matrix:
   - 0
   - 1
   - 0
-cpu time: 1.5837031270000352
+cpu time: 3.538103637000063
 database: lymphography
 method: EVO-Tree
-time of experiment: 02-11-2021 13:48:41
+time of experiment: 08-11-2021 21:28:40
 tree:
-  height: 4
+  height: 6
   serialization: evo-tree_lymphography_run_5_tree.model
-  size: 6
+  size: 7

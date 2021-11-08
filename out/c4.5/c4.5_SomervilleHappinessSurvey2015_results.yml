@@ -1,0 +1,13 @@
+method: C4.5
+database: SomervilleHappinessSurvey2015
+confusion matrix:
+- - 4.0
+  - 23.0
+- - 1.0
+  - 15.0
+tree:
+  size: 9
+  height: 3
+  serialization: c4.5_SomervilleHappinessSurvey2015_tree.model
+time of experiment: 08-11-2021 23:15:47 CET
+cpu time: 8.12523E-4

@@ -152,19 +152,19 @@ confusion matrix:
   - 0
   - 0
 - - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
   - 3
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
   - 0
   - 0
   - 0
@@ -191,15 +191,15 @@ confusion matrix:
   - 0
 - - 0
   - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
   - 2
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
   - 0
   - 0
   - 0
@@ -299,10 +299,10 @@ confusion matrix:
   - 0
   - 0
   - 0
-  - 10
+  - 9
   - 0
   - 0
-  - 0
+  - 1
 - - 0
   - 1
   - 0
@@ -351,20 +351,20 @@ confusion matrix:
   - 0
   - 0
   - 0
-  - 1
   - 0
   - 0
   - 0
   - 0
-  - 4
   - 0
   - 0
   - 0
-cpu time: 10.868745837999995
+  - 0
+  - 5
+cpu time: 8.176575493999962
 database: soybean-large
 method: EVO-Tree
-time of experiment: 02-11-2021 14:01:25
+time of experiment: 08-11-2021 21:40:09
 tree:
-  height: 7
+  height: 6
   serialization: evo-tree_soybean-large_run_6_tree.model
-  size: 8
+  size: 15

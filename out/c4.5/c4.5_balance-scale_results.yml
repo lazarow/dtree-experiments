@@ -1,0 +1,18 @@
+method: C4.5
+database: balance-scale
+confusion matrix:
+- - 0.0
+  - 6.0
+  - 4.0
+- - 0.0
+  - 59.0
+  - 17.0
+- - 0.0
+  - 33.0
+  - 69.0
+tree:
+  size: 31
+  height: 4
+  serialization: c4.5_balance-scale_tree.model
+time of experiment: 08-11-2021 23:15:47 CET
+cpu time: 9.49933E-4

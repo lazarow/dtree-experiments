@@ -19,7 +19,7 @@ confusion matrix:
   - 0
   - 0
 - - 0
-  - 15
+  - 13
   - 0
   - 0
   - 0
@@ -30,7 +30,7 @@ confusion matrix:
   - 0
   - 0
   - 0
-  - 2
+  - 4
   - 0
   - 0
   - 0
@@ -360,11 +360,11 @@ confusion matrix:
   - 0
   - 0
   - 5
-cpu time: 0.0014061620000000996
+cpu time: 0.0014748169999998506
 database: soybean-large
 method: CART
-time of experiment: 02-11-2021 14:52:16
+time of experiment: 08-11-2021 21:11:38
 tree:
-  height: 18
+  height: 17
   serialization: cart_soybean-large_tree.model
   size: 75

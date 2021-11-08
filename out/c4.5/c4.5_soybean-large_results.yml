@@ -329,5 +329,5 @@ tree:
   size: 67
   height: 9
   serialization: c4.5_soybean-large_tree.model
-time of experiment: 26-10-2021 16:56:50 CEST
-cpu time: 0.010876987
+time of experiment: 08-11-2021 23:15:47 CET
+cpu time: 0.003030495

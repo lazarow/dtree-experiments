@@ -1,0 +1,18 @@
+confusion matrix:
+- - 0
+  - 9
+  - 1
+- - 0
+  - 70
+  - 6
+- - 0
+  - 19
+  - 83
+cpu time: 19.482356727000024
+database: balance-scale
+method: EVO-Tree
+time of experiment: 08-11-2021 22:04:48
+tree:
+  height: 10
+  serialization: evo-tree_balance-scale_run_24_tree.model
+  size: 11

@@ -1,13 +1,13 @@
 confusion matrix:
 - - 38
   - 55
-- - 51
-  - 156
-cpu time: 0.0023093759999999186
+- - 43
+  - 164
+cpu time: 0.0024398919999999436
 database: SouthGermanCredit
 method: CART
-time of experiment: 02-11-2021 14:52:16
+time of experiment: 08-11-2021 21:11:38
 tree:
-  height: 14
+  height: 15
   serialization: cart_SouthGermanCredit_tree.model
-  size: 279
+  size: 273

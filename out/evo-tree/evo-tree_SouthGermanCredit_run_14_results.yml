@@ -1,13 +1,13 @@
 confusion matrix:
-- - 26
-  - 67
-- - 24
-  - 183
-cpu time: 7.424691113000108
+- - 19
+  - 74
+- - 14
+  - 193
+cpu time: 7.912618264999992
 database: SouthGermanCredit
 method: EVO-Tree
-time of experiment: 02-11-2021 13:55:48
+time of experiment: 08-11-2021 21:36:20
 tree:
-  height: 3
+  height: 2
   serialization: evo-tree_SouthGermanCredit_run_14_tree.model
-  size: 4
+  size: 3

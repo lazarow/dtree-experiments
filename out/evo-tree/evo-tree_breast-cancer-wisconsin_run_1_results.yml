@@ -1,13 +1,13 @@
 confusion matrix:
-- - 118
-  - 9
-- - 1
-  - 82
-cpu time: 15.450572305000001
+- - 119
+  - 8
+- - 5
+  - 78
+cpu time: 23.861211319000002
 database: breast-cancer-wisconsin
 method: EVO-Tree
-time of experiment: 02-11-2021 13:33:05
+time of experiment: 08-11-2021 21:14:08
 tree:
-  height: 6
+  height: 7
   serialization: evo-tree_breast-cancer-wisconsin_run_1_tree.model
-  size: 8
+  size: 13

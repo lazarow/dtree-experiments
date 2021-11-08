@@ -1,0 +1,13 @@
+confusion matrix:
+- - 4
+  - 23
+- - 1
+  - 15
+cpu time: 3.4982496299999184
+database: SomervilleHappinessSurvey2015
+method: EVO-Tree
+time of experiment: 08-11-2021 22:07:02
+tree:
+  height: 4
+  serialization: evo-tree_SomervilleHappinessSurvey2015_run_2_tree.model
+  size: 6

@@ -3,10 +3,10 @@ confusion matrix:
   - 0
 - - 33
   - 30
-cpu time: 2.702275955999994
+cpu time: 2.931198988999995
 database: monks-1
 method: EVO-Tree
-time of experiment: 02-11-2021 13:52:36
+time of experiment: 08-11-2021 21:32:41
 tree:
   height: 2
   serialization: evo-tree_monks-1_run_26_tree.model

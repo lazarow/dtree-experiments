@@ -1,12 +1,12 @@
 confusion matrix:
-- - 122
-  - 5
-- - 10
-  - 73
-cpu time: 0.0015533759999999397
+- - 123
+  - 4
+- - 14
+  - 69
+cpu time: 0.0014992060000000862
 database: breast-cancer-wisconsin
 method: CART
-time of experiment: 02-11-2021 14:52:16
+time of experiment: 08-11-2021 21:11:38
 tree:
   height: 12
   serialization: cart_breast-cancer-wisconsin_tree.model

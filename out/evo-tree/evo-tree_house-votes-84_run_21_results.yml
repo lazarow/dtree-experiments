@@ -3,11 +3,11 @@ confusion matrix:
   - 4
 - - 1
   - 47
-cpu time: 3.10632130700003
+cpu time: 4.5156893150000315
 database: house-votes-84
 method: EVO-Tree
-time of experiment: 02-11-2021 13:47:56
+time of experiment: 08-11-2021 21:27:33
 tree:
-  height: 2
+  height: 4
   serialization: evo-tree_house-votes-84_run_21_tree.model
-  size: 3
+  size: 5

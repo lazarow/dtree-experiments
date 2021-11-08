@@ -5,41 +5,41 @@ confusion matrix:
   - 0
   - 0
   - 0
-- - 0
-  - 21
+- - 21
   - 0
   - 0
   - 0
   - 0
-- - 0
+  - 0
+- - 1
   - 0
   - 22
   - 0
+  - 0
+  - 0
+- - 15
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+- - 9
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+- - 8
+  - 0
   - 1
   - 0
-- - 0
-  - 1
-  - 0
-  - 14
   - 0
   - 0
-- - 0
-  - 0
-  - 0
-  - 0
-  - 9
-  - 0
-- - 2
-  - 1
-  - 0
-  - 0
-  - 0
-  - 6
-cpu time: 14.20738862600001
+cpu time: 3.166838623999979
 database: dermatology
 method: EVO-Tree
-time of experiment: 02-11-2021 13:46:00
+time of experiment: 08-11-2021 21:25:34
 tree:
-  height: 7
+  height: 3
   serialization: evo-tree_dermatology_run_27_tree.model
-  size: 11
+  size: 4

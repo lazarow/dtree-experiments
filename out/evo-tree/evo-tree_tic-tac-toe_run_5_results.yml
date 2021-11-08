@@ -1,13 +1,13 @@
 confusion matrix:
-- - 14
-  - 76
-- - 13
-  - 185
-cpu time: 5.769659624999804
+- - 31
+  - 59
+- - 9
+  - 189
+cpu time: 11.510384965999947
 database: tic-tac-toe
 method: EVO-Tree
-time of experiment: 02-11-2021 14:07:22
+time of experiment: 08-11-2021 21:47:21
 tree:
-  height: 3
+  height: 8
   serialization: evo-tree_tic-tac-toe_run_5_tree.model
-  size: 4
+  size: 13

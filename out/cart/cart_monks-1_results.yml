@@ -1,13 +1,13 @@
 confusion matrix:
-- - 60
-  - 7
-- - 2
-  - 61
-cpu time: 0.001008557000000021
+- - 61
+  - 6
+- - 1
+  - 62
+cpu time: 0.0010267560000001286
 database: monks-1
 method: CART
-time of experiment: 02-11-2021 14:52:16
+time of experiment: 08-11-2021 21:11:38
 tree:
-  height: 11
+  height: 10
   serialization: cart_monks-1_tree.model
-  size: 101
+  size: 89

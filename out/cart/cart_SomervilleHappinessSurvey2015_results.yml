@@ -1,0 +1,13 @@
+confusion matrix:
+- - 10
+  - 17
+- - 8
+  - 8
+cpu time: 0.000967417000000026
+database: SomervilleHappinessSurvey2015
+method: CART
+time of experiment: 08-11-2021 21:11:38
+tree:
+  height: 13
+  serialization: cart_SomervilleHappinessSurvey2015_tree.model
+  size: 87

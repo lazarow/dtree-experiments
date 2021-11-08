@@ -1,0 +1,18 @@
+confusion matrix:
+- - 0
+  - 9
+  - 1
+- - 5
+  - 69
+  - 2
+- - 11
+  - 8
+  - 83
+cpu time: 0.0010999440000001304
+database: balance-scale
+method: CART
+time of experiment: 08-11-2021 21:11:38
+tree:
+  height: 10
+  serialization: cart_balance-scale_tree.model
+  size: 241

@@ -3,10 +3,10 @@ confusion matrix:
   - 4
 - - 1
   - 47
-cpu time: 3.268670328999974
+cpu time: 3.325091547999932
 database: house-votes-84
 method: EVO-Tree
-time of experiment: 02-11-2021 13:47:35
+time of experiment: 08-11-2021 21:27:09
 tree:
   height: 2
   serialization: evo-tree_house-votes-84_run_14_tree.model

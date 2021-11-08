@@ -1,0 +1,25 @@
+confusion matrix:
+- - 48
+  - 0
+  - 64
+  - 0
+- - 12
+  - 0
+  - 5
+  - 0
+- - 41
+  - 0
+  - 323
+  - 0
+- - 0
+  - 0
+  - 26
+  - 0
+cpu time: 16.55318988199997
+database: car
+method: EVO-Tree
+time of experiment: 08-11-2021 22:08:26
+tree:
+  height: 4
+  serialization: evo-tree_car_run_1_tree.model
+  size: 5
