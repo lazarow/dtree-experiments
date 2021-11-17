@@ -3,7 +3,6 @@ dermatology
 house-votes-84
 lymphography
 monks-1
-SouthGermanCredit
 soybean-large
 tic-tac-toe
 zoo
