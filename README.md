@@ -5,7 +5,7 @@ The repository contains 3 runners:
 - CART (from sklearn);
 - EVO-Tree (implementation based on [the article _Evolutionary Algorithm for Decision Tree Induction_](https://hal.inria.fr/hal-01405549/document) and [this repository](https://github.com/jamesnzeex/Decision_tree_with_genetic_algorithm/blob/main/Decision_tree_with_genetic_algorithm.ipynb)),
 
-and 9 datasets for experiments, which are declared in the `datasets.txt` file.
+and several datasets for experiments, which are declared in the `datasets.txt` file.
 
 The trainde models as well as results in the form of YAML file are saved in the `out` folder.
 
